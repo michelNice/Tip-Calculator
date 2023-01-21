@@ -1,3 +1,4 @@
+/*SETTING UP*/
 *{
     margin:0;
     box-sizing: border-box;
@@ -8,7 +9,6 @@ body{
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     color: #fff;
-
     display: flex;
     align-items: center;
     justify-content:center;
@@ -20,6 +20,7 @@ h2{
     margin-bottom: 1rem;
     
 }
+/*CONTEINER AND CONTENT*/
 .conteiner .main-page label{
     text-align: right;
     display: inline-block;
@@ -27,33 +28,36 @@ h2{
 }
 
 .conteiner{
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);*/
-
     width: 500px;
-    height: 300px;
+    height: 350px;
     background: #62e2da;;
     padding:0.8rem;
-    border-radius: 0.6rem;
-
-   
-
-
+    border-radius: 0.6rem;  
 }
 
-
-.conteiner .main-page .input{
-    padding:0.4rem 0;
-}
-
+.conteiner .main-page .input{padding:0.4rem 0;}
 
 .conteiner input ,.tip{
     width:400px;
     padding:0.8rem;
 }
 
+/*MAIN BUTTON*/
+.btn-calc{
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    color: #62e2da;
+}
+/*ULTILIES*/
+.conteiner input, .tip,
+.btn-calc{
+    border: 1px solid #fff;
+    outline-color: #62e2da;
+    border-radius: 0.5rem;
+}
 
 
-
+.el,.el_one{
+    display: none;
+    padding-left: 2rem;
+}

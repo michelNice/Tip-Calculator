@@ -1,34 +1,18 @@
 @media(max-width:600px){
 
-    body{
-        padding: 0.6rem;
+    body{padding: 0.6rem;}
 
-        
-    }
     .conteiner{
-        /*position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        */
         width: 100%;
-        height: 300px;
-        background: #62e2da;;
-        padding:0.8rem;
-        border-radius: 0.6rem;
-        
-       
+        height: 420px;
     }
+    
 
     .conteiner input ,.tip{
         width:100%;
         padding:0.8rem;
     }
 
-    .conteiner .main-page label{
-        text-align: right;
-        display: inline-block;
-        width:0px;
-    }
+    .conteiner .main-page label{width:0;}
 
 }
